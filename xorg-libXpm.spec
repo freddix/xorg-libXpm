@@ -1,7 +1,7 @@
 Summary:	X Pixmap library
 Name:		xorg-libXpm
 Version:	3.5.11
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libXpm-%{version}.tar.bz2
@@ -65,7 +65,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libXpm.so
-%{_libdir}/libXpm.la
 %{_includedir}/X11/xpm.h
 %{_pkgconfigdir}/xpm.pc
 
